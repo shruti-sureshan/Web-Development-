@@ -1,0 +1,83 @@
+<html>
+<title>Marksheet</title>
+<body>
+<script>
+function cal()
+{
+var m=document.calculate.name.value;
+var n=document.calculate.class.value;
+var r=document.calculate.roll.value;
+var x=document.calculate.subject1.value;
+var y=document.calculate.subject2.value;
+var z=document.calculate.subject3.value;
+var a=document.calculate.subject4.value;
+var b=document.calculate.subject5.value;
+var c=document.calculate.subject6.value;
+var t=parseInt(a)+parseInt(b)+parseInt(c)+parseInt(x)+parseInt(y)+parseInt(z);
+var p=(t*100)/600;
+document.write("TOTAL:"+t);
+document.write("<br>");
+document.write("<br>");
+document.write("\nPERCENTAGE:"+p);
+document.write("<br>");
+document.write("<br>");
+document.write("\nGRADE:");
+if(p>=80)
+{
+document.write("A");
+}
+else if(p>=60 && p<80)
+{
+document.write("B");
+}
+else if(p>=40 && p<60)
+{
+document.write("C");
+}
+else
+{
+document.write("FAIL");
+}}
+</script>
+
+<body bgcolor=Plum>
+<font face="Georgia Italic">
+<center><h1>UNIVERSITY OF MUMBAI</h1></center></font>
+<form name=calculate>
+<table>
+<tr>
+<td>NAME:<br><br></td>
+<td><input type="text" name=name><br><br>
+</td>
+</tr>
+
+<tr>
+<td>CLASS:<br><br></td>
+<td><input type="text" name=class><br><br>
+</td>
+</tr>
+
+<tr>
+<td>ROLL NO:<br><br></td>
+<td><input type="text" name=roll><br><br></td></tr>
+<tr>
+<td>MATHS:<br><br></td>
+<td><input type="text" name=subject1><br><br></td></tr>
+<tr>
+<td>COA:<br><br></td>
+<td><input type="text" name=subject2><br><br></td></tr>
+<tr>
+<td>AOA:<br><br></td>
+<td><input type="text" name=subject3><br><br></td></tr>
+<tr>
+<td>OS:<br><br></td>
+<td><input type="text" name=subject4><br><br></td></tr>
+<tr>
+<td>CG:<br><br></td>
+<td><input type="text" name=subject5><br><br></td></tr>
+<tr>
+<td>OST:<br><br></td>
+<td><input type="text" name=subject6><br><br></td></tr></table>
+<button type="button" onclick="cal()">Submit</button><br>
+</form>
+</body>  </html>
