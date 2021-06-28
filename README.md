@@ -1,8 +1,8 @@
 # Web-Development-
 
+•	Create a small Web site reviewing products of your choice<br/>
 •	Write a program in HTML to display tables<br/>
 •	Write a program in HTML to display list.<br/>
-•	Create a small Web site reviewing products of your choice<br/>
 •	Write a program in HTML to display the registration form.<br/>
 •	Write a JavaScript program to validate the above registration form.(Validate any 3 fields)<br/>
 •	Write a JavaScript program to print all even numbers between 1 to 20.<br/>
