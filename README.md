@@ -20,3 +20,4 @@
 •	Write a PHP program to print a table of 5.<br/>
 
 
+Tech stack: HTML, CSS, Javascript, PHP, MySQL
